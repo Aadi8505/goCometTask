@@ -25,19 +25,10 @@ goCometTask/
 ├── tools/
 │   └── apache-maven-3.9.9/                    # Portable Maven distribution
 └── src/
-    └── test/
-        ├── java/
-        │   └── com/
-        │       └── casekaro/
-        │           ├── hooks/
-        │           │   └── Hooks.java         # Lifecycle, browser startup and teardown
-        │           ├── runners/
-        │           │   └── TestRunner.java    # JUnit 4 & Cucumber Configuration
-        │           └── steps/
-        │               └── CaseKaroSteps.java # Playwright actions & Step Definitions
-        └── resources/
-            └── features/
-                └── casekaro.feature           # Cucumber Gherkin Scenarios
+    ├── Hooks.java                             # Lifecycle, browser startup and teardown
+    ├── TestRunner.java                        # JUnit 4 & Cucumber Configuration
+    ├── CaseKaroSteps.java                     # Playwright actions & Step Definitions
+    └── casekaro.feature                       # Cucumber Gherkin Scenarios
 ```
 
 ---
@@ -49,22 +40,22 @@ This Maven descriptor manages dependencies:
 * `microsoft-playwright` (v1.44.0): For fast, auto-waiting, and robust browser interactions.
 * `cucumber-java` & `cucumber-junit` (v7.18.0): Cucumber integration with JUnit.
 * `junit` (v4.13.2): Core test execution engine.
-* Configured using **Java 21** compiler targets.
+* Configured using **Java 21** compiler targets with flat test directories.
 
-### 2. [`casekaro.feature`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/test/resources/features/casekaro.feature)
+### 2. [`casekaro.feature`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/casekaro.feature)
 Written in **Gherkin**, this feature file outlines the behavior of the shopping scenario from navigation and negative search validation to multi-variant cart addition and price extraction.
 
-### 3. [`Hooks.java`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/test/java/com/casekaro/hooks/Hooks.java)
+### 3. [`Hooks.java`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/Hooks.java)
 Handles Playwright browser lifecycle:
-* `@Before` setup: Launches Playwright Chromium with browser parameters.
+* `@Before` setup: Launches Playwright Firefox with browser parameters.
 * **Headed Toggling**: Configures headless mode based on `System.getProperty("headless", "false")`.
 * **SlowMo Delay**: Configured with a `800ms` SlowMo delay to make the execution smooth and extremely easy to watch and verify.
 * `@After` teardown: Gracefully closes the Page, Context, Browser, and Playwright processes to prevent residual process leaks.
 
-### 4. [`TestRunner.java`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/test/java/com/casekaro/runners/TestRunner.java)
+### 4. [`TestRunner.java`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/TestRunner.java)
 Bridges JUnit and Cucumber. Set up with `@CucumberOptions` targeting the features path, step definition glue classes, and plugins for beautiful `pretty`, `html:target/cucumber-reports.html`, and `json` outputs.
 
-### 5. [`CaseKaroSteps.java`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/test/java/com/casekaro/steps/CaseKaroSteps.java)
+### 5. [`CaseKaroSteps.java`](file:///c:/Users/HP%20VICTUS/Desktop/goCometTask/src/CaseKaroSteps.java)
 Core implementation containing the Playwright interactions:
 * **Navigation & Mobile Covers click**: Handles mobile responsive hamburger menus gracefully, with automatic direct navigation fallback to `/pages/phone-cases-by-model` if top links are covered.
 * **Negative Validation**: Collects visible suggestion elements and asserts none contain other brands (Samsung, OnePlus, Oppo, etc.) when Apple is typed.

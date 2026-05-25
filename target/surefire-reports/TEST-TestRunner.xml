@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.casekaro.runners.TestRunner" time="69.751" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunner" time="77.182" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\HP VICTUS\AppData\Local\Temp\surefire7743997823677648862\surefirebooter-20260525223652420_3.jar C:\Users\HP VICTUS\AppData\Local\Temp\surefire7743997823677648862 2026-05-25T22-36-52_211-jvmRun1 surefire-20260525223652420_1tmp surefire_0-20260525223652420_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\HP VICTUS\AppData\Local\Temp\surefire7937761796900780378\surefirebooter-20260525232902671_3.jar C:\Users\HP VICTUS\AppData\Local\Temp\surefire7937761796900780378 2026-05-25T23-29-02_474-jvmRun1 surefire-20260525232902671_1tmp surefire_0-20260525232902671_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\HP VICTUS\Desktop\goCometTask\target\test-classes;C:\Users\HP VICTUS\Desktop\goCometTask\target\classes;C:\Users\HP VICTUS\.m2\repository\com\microsoft\playwright\playwright\1.44.0\playwright-1.44.0.jar;C:\Users\HP VICTUS\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\HP VICTUS\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\HP VICTUS\.m2\repository\com\microsoft\playwright\driver\1.44.0\driver-1.44.0.jar;C:\Users\HP VICTUS\.m2\repository\com\microsoft\playwright\driver-bundle\1.44.0\driver-bundle-1.44.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\HP VICTUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP VICTUS\.m2\repository\io\cucumber\cucumber-junit\7.18.0\cucumber-junit-7.18.0.jar;C:\Users\HP VICTUS\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\HP VICTUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\HP VICTUS\AppData\Local\Temp\surefire7743997823677648862\surefirebooter-20260525223652420_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP VICTUS\AppData\Local\Temp\surefire7937761796900780378\surefirebooter-20260525232902671_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -49,9 +49,8 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="headless" value="true"/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/HP VICTUS/.gemini/antigravity-ide/bin;C:\Users\HP VICTUS\AppData\Local\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Users\HP VICTUS\Desktop\ngrok-v3-stable-windows-amd64;C:\Users\HP VICTUS\ngrok;C:\Users\HP VICTUS\anaconda3\Library\mingw-w64\bin;C:\MinGW\bin;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Pandoc\;C:\Program Files\Kubernetes\Minikube;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Python39\Scripts\;C:\Python39\;C:\Users\HP VICTUS\AppData\Local\Programs\Python\Launcher\;C:\Users\HP VICTUS\AppData\Local\Microsoft\WindowsApps;C:\Users\HP VICTUS\AppData\Local\Programs\mongosh\;C:\Program Files\JetBrains\PyCharm 2025.2.4\bin;C:\Users\HP VICTUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP VICTUS\AppData\Roaming\npm;C:\Users\HP VICTUS\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\HP VICTUS\AppData\Local\Programs\Antigravity\bin;C:\Program Files\PostgreSQL\16\bin;C:\Users\HP VICTUS\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\HP VICTUS\AppData\Local\BraveSoftware\Brave-Browser\Application;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Program Files\Go\bin;C:\Program Files\dotnet\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Users\HP VICTUS\Desktop\ngrok-v3-stable-windows-amd64;C:\Users\HP VICTUS\ngrok;C:\Users\HP VICTUS\anaconda3\Library\mingw-w64\bin;C:\MinGW\bin;C:\Program Files\CMake\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Pandoc\;C:\Program Files\Kubernetes\Minikube;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Python39\Scripts\;C:\Python39\;C:\Users\HP VICTUS\AppData\Local\Programs\Python\Launcher\;C:\Users\HP VICTUS\AppData\Local\Microsoft\WindowsApps;C:\Users\HP VICTUS\AppData\Local\Programs\mongosh\;C:\Program Files\JetBrains\PyCharm 2025.2.4\bin;C:\Users\HP VICTUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP VICTUS\AppData\Roaming\npm;C:\Users\HP VICTUS\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\8.0\bin;C:\Users\HP VICTUS\AppData\Local\Programs\Antigravity\bin;C:\Program Files\PostgreSQL\16\bin;C:\Users\HP VICTUS\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;c:\Users\HP VICTUS\.antigravity-ide\extensions\vscjava.vscode-java-debug-0.59.0-universal\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -59,25 +58,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Add three material variants of a phone cover to cart and validate" classname="CaseKaro Shopping Flow Automation" time="68.863">
+  <testcase name="Add three material variants of a phone cover to cart and validate" classname="CaseKaro Shopping Flow Automation" time="76.294">
     <system-out><![CDATA[
-Scenario: Add three material variants of a phone cover to cart and validate                             # src/test/resources/features/casekaro.feature:3
+Scenario: Add three material variants of a phone cover to cart and validate                             # src/casekaro.feature:3
 Launching native Playwright Firefox browser...
-  Given I navigate to the CaseKaro website "https://casekaro.com/"                                      # com.casekaro.steps.CaseKaroSteps.navigateToWebsite(java.lang.String)
+  Given I navigate to the CaseKaro website "https://casekaro.com/"                                      # CaseKaroSteps.navigateToWebsite(java.lang.String)
 Navigating directly to phone covers by model page...
 Actual page URL after challenge wait: https://casekaro.com/pages/phone-cases-by-model
 Actual page title after challenge wait: Phone Cases by Model - Starting ₹69 | CaseKaro – Casekaro
-  When I click on "Mobile Covers" from the top navigation menu                                          # com.casekaro.steps.CaseKaroSteps.clickOnMobileCovers(java.lang.String)
-  And I scroll down to the "Phone cases by model" search box and search for "Apple"                     # com.casekaro.steps.CaseKaroSteps.scrollToSearchBoxAndSearch(java.lang.String,java.lang.String)
-  Then I verify that non-Apple brands are not visible in the search results                             # com.casekaro.steps.CaseKaroSteps.verifyNonAppleBrandsNotVisible()
-  When I search for "iPhone 16 Pro" in the phone model search box and wait for autocomplete suggestions # com.casekaro.steps.CaseKaroSteps.searchForPhoneModel(java.lang.String)
-  And I select specifically "iPhone 16 Pro" from the autocomplete dropdown                              # com.casekaro.steps.CaseKaroSteps.selectModelFromDropdown(java.lang.String)
+  When I click on "Mobile Covers" from the top navigation menu                                          # CaseKaroSteps.clickOnMobileCovers(java.lang.String)
+  And I scroll down to the "Phone cases by model" search box and search for "Apple"                     # CaseKaroSteps.scrollToSearchBoxAndSearch(java.lang.String,java.lang.String)
+  Then I verify that non-Apple brands are not visible in the search results                             # CaseKaroSteps.verifyNonAppleBrandsNotVisible()
+  When I search for "iPhone 16 Pro" in the phone model search box and wait for autocomplete suggestions # CaseKaroSteps.searchForPhoneModel(java.lang.String)
+  And I select specifically "iPhone 16 Pro" from the autocomplete dropdown                              # CaseKaroSteps.selectModelFromDropdown(java.lang.String)
 Navigating directly to product URL: https://casekaro.com/products/black-marble-texture-iphone-16-pro-back-cover
 Current page URL after navigation: https://casekaro.com/products/black-marble-texture-iphone-16-pro-back-cover
-  And I click "Choose Options" on the first product card                                                # com.casekaro.steps.CaseKaroSteps.clickChooseOptionsOnFirstProduct(java.lang.String)
-  And I add all three material variants "Hard", "Soft", and "Glass" of this case to the cart            # com.casekaro.steps.CaseKaroSteps.addThreeMaterialVariantsToCart(java.lang.String,java.lang.String,java.lang.String)
-  And I open the cart                                                                                   # com.casekaro.steps.CaseKaroSteps.openCart()
-  Then I validate that all three items are added in the cart                                            # com.casekaro.steps.CaseKaroSteps.validateItemsInCart()
+  And I click "Choose Options" on the first product card                                                # CaseKaroSteps.clickChooseOptionsOnFirstProduct(java.lang.String)
+  And I add all three material variants "Hard", "Soft", and "Glass" of this case to the cart            # CaseKaroSteps.addThreeMaterialVariantsToCart(java.lang.String,java.lang.String,java.lang.String)
+  And I open the cart                                                                                   # CaseKaroSteps.openCart()
+  Then I validate that all three items are added in the cart                                            # CaseKaroSteps.validateItemsInCart()
 
 ========================================================
             CASEKARO CART PRODUCTS & PRICES
@@ -99,7 +98,7 @@ Product Item #6:
 --------------------------------------------------------
 ========================================================
 
-  And I print the price of all items with details including Material, Price, and Link in the console    # com.casekaro.steps.CaseKaroSteps.printItemsDetails()
+  And I print the price of all items with details including Material, Price, and Link in the console    # CaseKaroSteps.printItemsDetails()
 ]]></system-out>
   </testcase>
 </testsuite>

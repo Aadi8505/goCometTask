@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.casekaro.runners.TestRunner
+Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 69.75 s -- in com.casekaro.runners.TestRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.18 s -- in TestRunner

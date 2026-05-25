@@ -50,6 +50,15 @@
     </dependencies>
 
     <build>
+        <testSourceDirectory>src</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>src</directory>
+                <includes>
+                    <include>**/*.feature</include>
+                </includes>
+            </testResource>
+        </testResources>
         <plugins>
             <!-- Compiler Plugin -->
             <plugin>

@@ -1,5 +1,3 @@
-package com.casekaro.hooks;
-
 import com.microsoft.playwright.*;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
